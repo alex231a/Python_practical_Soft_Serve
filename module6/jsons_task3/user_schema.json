@@ -1,0 +1,12 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "id": {"type": "integer"},
+            "name": {"type": "string"},
+            "department_id": {"type": "integer"}
+        },
+        "required": ["id", "name", "department_id"]
+    }
+}

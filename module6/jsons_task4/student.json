@@ -1,0 +1,6 @@
+[{"full_name": "Alex Smith", "avg_rank": "50.4", "courses": ["Python", "Java", ",C++"]},
+  {"full_name": "John Doy", "avg_rank": "60.8", "courses": ["PHP", "Java", ",Javascript"]},
+  {"full_name": "Jim Carry", "avg_rank": "80.4", "courses": ["SQL", "Rubi", ",C++"]},
+  {"full_name": "Bruse Willis", "avg_rank": "90.4", "courses": ["Python", "Java", ",C++"]},
+  {"full_name": "Barbara Smith", "avg_rank": "10.4", "courses": ["SQL", "Rubi", ",C++"]},
+  {"full_name": "Kate Backinseil", "avg_rank": "99.4", "courses": ["PHP", "Java", ",Javascript"]}]
