@@ -111,6 +111,7 @@ class CartTest(unittest.TestCase):
         exp_price = exp_price_wod - (exp_price_wod * 30 / 100)
         self.assertEqual(t_price, exp_price)
 
+
     # def test_more20_discount(self):
     #     self.cart.add_product(self.product6)
     #     t_price = self.cart.get_total_price()
