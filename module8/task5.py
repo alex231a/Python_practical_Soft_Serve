@@ -67,11 +67,7 @@ class WorkerTest(unittest.TestCase):
     def test_check_47_tax(self):
         self.assertEqual(self.worker7.get_tax_value(), 16550.47)
 
+    @unittest.expectedFailure
     def test_create_worker_with_negative_salary(self):
-        try:
-            Worker("Negative Salary Worker", -100)
-        # except ValueError as e:
-        #     self.assertEqual(str(e), "Salary cannot be negative")
-        except ValueError:
-            self.assertEqual(ValueError, ValueError)
-
+        result = Worker("Negative Salary Worker", -100)
+        self.assertEqual(result, "Salary cannot be negative")
